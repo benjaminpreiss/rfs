@@ -253,7 +253,11 @@ $rfs-mq-property-height: if($rfs-mode == max-media-query, max-height, min-height
     }
     @else {
       @include _rfs-rule {
-        #{$property}: if($rfs-mode == max-media-query, $val, $fluidVal);
+        // fallback in case calc() and synonymously @fluidValue is not supported
+        #{$property}: $val;
+        @if $rfs-mode == min-media-query {
+          #{$property}: $fluidVal;
+        }
 
         // Include safari iframe resize fix if needed
         min-width: if($rfs-safari-iframe-resize-bug-fix, (0 * 1vw), null);

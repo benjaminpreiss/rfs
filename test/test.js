@@ -10,8 +10,7 @@ const styles = [
   'Less',
   'LibSass',
   'DartSass',
-  'Stylus',
-  'Postcss'
+  'Stylus'
 ];
 
 function doTest(style) {

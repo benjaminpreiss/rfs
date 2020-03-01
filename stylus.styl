@@ -203,10 +203,10 @@ rfs($values, $property = font-size)
     {$property}: $val
   else
     +_rfs-rule()
+      // fallback in case calc() and synonymously @fluidValue is not supported
+      {$property}: $val
       if $rfs-mode == "min-media-query"
         {$property}: $fluidVal
-      else
-        {$property}: $val
 
       if $rfs-safari-iframe-resize-bug-fix and $rfs-mode == "min-media-query"
         min-width: 0vw

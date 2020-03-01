@@ -1,6 +1,7 @@
 .selector-1 {
   background-color: #f00;
   width: 300px;
+  font-size: 32px;
   font-size: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -10,6 +11,7 @@
 }
 
 .selector-2 {
+  font-size: 32px;
   font-size: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -19,6 +21,7 @@
 }
 
 .selector-3 {
+  font-size: 32px !important;
   font-size: calc(21.2px + 0.9vw) !important;
 }
 @media (min-width: 1200px) {
@@ -28,6 +31,7 @@
 }
 
 .selector-4 {
+  font-size: 32px;
   font-size: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -46,6 +50,7 @@
 
 @supports (display: flex) {
   .selector-7 {
+    font-size: 28px;
     font-size: calc(20.8px + 0.6vw);
   }
   @media (min-width: 1200px) {
@@ -56,6 +61,7 @@
 }
 
 .selector-8 {
+  flex: 0 999 512px;
   flex: 0 999 calc(69.2px + 36.9vw);
 }
 @media (min-width: 1200px) {
@@ -65,6 +71,7 @@
 }
 
 .selector-9 {
+  padding: 32px;
   padding: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -74,6 +81,7 @@
 }
 
 .selector-10 {
+  padding: 32px;
   padding: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -83,6 +91,7 @@
 }
 
 .selector-11 {
+  padding-top: 32px;
   padding-top: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -92,6 +101,7 @@
 }
 
 .selector-12 {
+  padding-right: 32px;
   padding-right: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -101,6 +111,7 @@
 }
 
 .selector-13 {
+  padding-bottom: 32px;
   padding-bottom: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -110,6 +121,7 @@
 }
 
 .selector-14 {
+  padding-left: 32px;
   padding-left: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -119,6 +131,7 @@
 }
 
 .selector-15 {
+  margin: 32px;
   margin: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -128,6 +141,7 @@
 }
 
 .selector-16 {
+  margin-top: 32px;
   margin-top: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -137,6 +151,7 @@
 }
 
 .selector-17 {
+  margin-right: 32px;
   margin-right: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -146,6 +161,7 @@
 }
 
 .selector-18 {
+  margin-bottom: 32px;
   margin-bottom: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -155,6 +171,7 @@
 }
 
 .selector-19 {
+  margin-left: 32px;
   margin-left: calc(21.2px + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -164,6 +181,7 @@
 }
 
 .selector-20 {
+  margin: 32px 48px;
   margin: calc(21.2px + 0.9vw) calc(22.8px + 2.1vw);
 }
 @media (min-width: 1200px) {
@@ -173,6 +191,7 @@
 }
 
 .selector-21 {
+  margin: 32px 48px !important;
   margin: calc(21.2px + 0.9vw) calc(22.8px + 2.1vw) !important;
 }
 @media (min-width: 1200px) {
@@ -186,6 +205,7 @@
 }
 
 .selector-23 {
+  margin: 0 48px;
   margin: 0 calc(22.8px + 2.1vw);
 }
 @media (min-width: 1200px) {
@@ -195,6 +215,7 @@
 }
 
 .selector-24 {
+  box-shadow: 0 0 32px #f00, 0 0 48px #0f0;
   box-shadow: 0 0 calc(21.2px + 0.9vw) #f00, 0 0 calc(22.8px + 2.1vw) #0f0;
 }
 @media (min-width: 1200px) {
@@ -204,6 +225,7 @@
 }
 
 .selector-25 {
+  --value: 48px;
   --value: calc(22.8px + 2.1vw);
 }
 @media (min-width: 1200px) {
@@ -217,6 +239,7 @@
 }
 
 .selector-27 {
+  margin: -48px;
   margin: calc(-22.8px - 2.1vw);
 }
 @media (min-width: 1200px) {
